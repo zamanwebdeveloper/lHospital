@@ -28,5 +28,30 @@ class PageController extends Controller
     public function patients(){
         return view('patients');
     }
+    public function add_patient(){
+        return view('add-patient');
+    }
+    public function patient_profile(){
+        return view('patient-profile');
+    }
+    public function patient_invoice(){
+        return view('patient-invoice');
+    }
+    public function payments(){
+        return view('payments');
+    }
+    public function add_payments(){
+        return view('add-payments');
+    }
+    public function reports(){
+        return view('reports');
+    }
+    public function widgets(){
+        return view('widgets');
+    }
+
     
 }
+// public function widgets(){
+//         return view('widgets');
+//     }
