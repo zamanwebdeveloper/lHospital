@@ -273,7 +273,6 @@
                     </ul>
                 </li>
                 <li><a href="{{url('/reports')}}"><i class="zmdi zmdi-file-text"></i><span>Reports</span></a></li>
-                <li><a href="{{url('/widgets')}}"><i class="zmdi zmdi-delicious"></i><span>Widgets</span></a></li>
             </ul>
         </div>
         <!-- #Menu -->
